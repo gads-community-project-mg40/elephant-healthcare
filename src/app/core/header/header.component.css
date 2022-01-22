@@ -20,18 +20,26 @@ a :hover{
 }
 .left-side{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .right-side{
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
 }
-.home-container{
-    width: 100px;
-    height: 50px;
+.logo{
+    position:absolute ;
     left: 50px;
+    top:30px ;
+    width: 100px;
+    height:100px;
+    background: url(images/logo.png);
+}
+
+.home-container{
+    width:100px;
+    height:50px;
+    left: 200px;
     background-color:#B1D422 ;
     position: absolute;
     top: 37.68px;
@@ -43,7 +51,7 @@ a :hover{
     position: absolute;
     width: 100px;
     height: 50px;
-    left: 180px;
+    left: 330px;
     top: 37.68px;
     background: linear-gradient(0deg, rgba(141, 207, 9, 0.5), rgba(141, 207, 9, 0.5)), rgba(25, 241, 47, 0.5);
     box-shadow:  10px 10px 20px rgba(32, 38, 32, 0.5);
@@ -53,7 +61,7 @@ a :hover{
     position: absolute;
     width:100px;
     height: 50px;
-    left: 300px;
+    left: 450px;
     top: 37.68px;
     background: linear-gradient(0deg, rgba(141, 207, 9, 0.5), rgba(141, 207, 9, 0.5)), rgba(25, 241, 47, 0.5);
     box-shadow:  10px 10px 20px rgba(32, 38, 32, 0.5);
@@ -140,5 +148,5 @@ a :hover{
     line-height: 50px;
     color: #F7F7F7;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 3%;
 }
