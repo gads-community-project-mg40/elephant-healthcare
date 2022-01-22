@@ -1,9 +1,11 @@
 .nav-wrapper{
+    display: flex;
+    justify-content: space-between;
     background-color: #B1D422;
     position: fixed;
     top: 0%;
-    left: 0%;
-    width: 1300px;
+    left: 0px;
+    width: 1500px;
     height: 150px;
     margin-top: 0%;
     margin-left: 0%;
@@ -16,13 +18,10 @@ a{
 a :hover{
     text-decoration: none;
 }
-.nav-wrapper{
-display: flex;
-justify-content: space-between;
-}
 .left-side{
     display: flex;
     justify-content: space-between;
+    left:50
 }
 .right-side{
     display: flex;
@@ -41,9 +40,9 @@ justify-content: space-between;
 }
 .about-us-container{
     position: absolute;
-    width: 100;
+    width: 100px;
     height: 50px;
-    left: 200px;
+    left: 180px;
     top: 37.68px;
     background: linear-gradient(0deg, rgba(141, 207, 9, 0.5), rgba(141, 207, 9, 0.5)), rgba(25, 241, 47, 0.5);
     box-shadow:  10px 10px 20px rgba(32, 38, 32, 0.5);
@@ -53,7 +52,7 @@ justify-content: space-between;
     position: absolute;
     width:100px;
     height: 50px;
-    left: 350px;
+    left: 300px;
     top: 37.68px;
     background: linear-gradient(0deg, rgba(141, 207, 9, 0.5), rgba(141, 207, 9, 0.5)), rgba(25, 241, 47, 0.5);
     box-shadow:  10px 10px 20px rgba(32, 38, 32, 0.5);
@@ -97,11 +96,12 @@ justify-content: space-between;
     height: 30px;
     font-family: Poppins;
     font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
     color: #F7F7F7;
     margin: 10%;
+    padding: 0%;
 }
 .contact-us{
     position: absolute;
@@ -117,16 +117,14 @@ justify-content: space-between;
     padding: 0%;
 }
 .sign-in-page{
-    position: absolute;
     width: 80px;
     height: 30px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 30px;
-    color: #F7F7F7;
-    margin: 10%;
+    line-height: 50px;
+    color: #F7F7F7;;
 }
 .sign-up-page{
     position: absolute;
@@ -136,7 +134,7 @@ justify-content: space-between;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 50px;
     color: #F7F7F7;
     margin: 10%;
 }
