@@ -1,8 +1,10 @@
 .footer{
     background: color #f7f7f7;
-    position:fixed;
+    position: absolute;
     width: 1300px;
-    bottom: 0%;
+    height: 50px;
+    bottom: 0px;
+    top:2300px;
 }
 p{
     font-family: Poppins;
@@ -13,6 +15,5 @@ p{
 /* identical to box height */
     text-align: center;
     color: #4A9317;
-    position: absolute;
     margin-left: 40%;
 }

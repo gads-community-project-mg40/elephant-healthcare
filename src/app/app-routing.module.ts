@@ -9,9 +9,9 @@ import { SignInPageComponent } from './sign-in-page/sign-in-page.component';
 import { SignUpPageComponent } from './sign-up-page/sign-up-page.component';
 
 const routes: Routes = [ 
-  {path: 'homepage' ,component:HomepageComponent},
-  {path: 'about-us' ,component:AboutUsComponent},
-  {path: 'contact-us',component:ContactUsComponent},
+  {path: 'homepage', component: HomepageComponent},
+  {path: 'about-us', component: AboutUsComponent},
+  {path: 'contact-us', component: ContactUsComponent},
   {path:'sign-in-page',component:SignInPageComponent},
   {path:'sign-up-page',component:SignUpPageComponent},
   {path:'header',component:HeaderComponent},
@@ -23,3 +23,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const routingComponents = [HomepageComponent,AboutUsComponent,ContactUsComponent,SignInPageComponent,SignUpPageComponent,HeaderComponent,FooterComponent]
